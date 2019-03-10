@@ -1,0 +1,112 @@
+body{
+    background-image: url('https://cdn.wallpapersafari.com/30/67/3gP7zd.png');
+    background-size: cover;
+}
+
+#image_container img {
+    width: 500px;
+    height: 700px;
+  
+  
+}
+
+p{
+    font-size: 25px;
+    color: pink;
+    float: left;
+    background: black;
+    border-color: pink;
+    text: white;
+    border-style: solid;
+    border-width: 10px;
+    height: 100px;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 25px;
+    color: pink;
+    float: left;
+    background: black;
+    border-color: pink;
+    text: white;
+    border-style: solid;
+    border-width: 10px;
+    height: 400px;
+    padding: 24px 14px;
+
+}
+
+h1::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+}
+ 
+nav p {
+    font-size: 35px;
+    color: palevioletred;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    font-size: 25px;
+    color: pink;
+    padding: 24px 14px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+    padding-top: 25px;
+
+
+    position: relative;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: palevioletred;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: palevioletred;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 25ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+
+}
+
